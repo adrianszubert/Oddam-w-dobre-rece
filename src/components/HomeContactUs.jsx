@@ -2,11 +2,14 @@ const HomeContactUs = () => {
   return (
     <section className="contact">
       <form>
-        <input type="text" placeholder="Krzysztof" />
-        <input type="email" placeholder="abc@xyz.pl" />
+        <label for="name">Wpisz swoje imię</label>
+        <input type="text" id="name" placeholder="Krzysztof"/>
+        <label for="email">Wpisz swój email</label>
+        <input type="email" id="email" placeholder="abc@xyz.pl"/>
+        <label for="message">Wpisz swoją wiadomość</label>
         <textarea
           name="message"
-          id=""
+          id="message"
           cols="30"
           rows="6"
           placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
