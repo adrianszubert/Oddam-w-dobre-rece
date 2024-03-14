@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Auth = () => {
   return (
-            <>
-                <a href="/logowanie">Zaloguj się</a>
-                <a href="/rejestracja">Załóż konto</a>
-            </>
+            <div className="auth__container">
+              <Link to="/logowanie" className="auth auth__log-in">Zaloguj się</Link>
+              <Link to="/rejestracja" className="auth auth__signup">Załóż konto</Link>
+            </div>
   )
 }
 
