@@ -1,6 +1,6 @@
 const HomeContactUs = () => {
   return (
-    <section className="contact">
+    <section id="contact-us" className="contact">
       <form>
         <label for="name">Wpisz swoje imię</label>
         <input type="text" id="name" placeholder="Krzysztof"/>

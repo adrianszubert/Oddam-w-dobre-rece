@@ -3,10 +3,10 @@ import HomeWelcome from "./HomeWelcome";
 
 const HomeHeader = () => {
   return (
-          <>
+          <section id="start">
             <HomeMenu/>
             <HomeWelcome/>
-          </>
+          </section>
   )
 }
 

@@ -1,6 +1,6 @@
 const HomeAboutUs = () => {
   return (
-    <section className="about-us">
+    <section id="about-us" className="about-us">
       <div className="about-us-text">
         <h2>O nas</h2>
         <img src={require("../assets/Decoration.svg").default}

@@ -1,3 +1,5 @@
+import decoration from '../assets/Icon-1.svg';
+
 const HomeFourSteps = () => {
   return (
     <section className="four-columns">
