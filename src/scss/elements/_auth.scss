@@ -1,0 +1,10 @@
+.auth {
+  text-decoration: none;
+  color: $auth-color;
+  font-size: 13px;
+  padding: 8px 10px;
+}
+
+.auth__signup {
+  border: 1px solid $auth-border-color;
+}
