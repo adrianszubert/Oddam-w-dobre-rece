@@ -1,3 +1,6 @@
+import fb from '../assets/Facebook.svg';
+import insta from '../assets/Instagram.svg';
+
 const HomeContactUs = () => {
   return (
     <section id="contact-us" className="contact">
@@ -19,12 +22,12 @@ const HomeContactUs = () => {
         <p>Copyright by Coders Lab</p>
         <div className="social-icons">
           <img
-            src={require("../assets/Facebook.svg").default}
+            src={fb}
             alt="a Facebook icon "
           />
           <img
-            src={require("../assets/Instagram.svg").default}
-            alt="a Instagram icon "
+            src={insta}
+            alt="a Instagram icon"
           />
         </div>
       </footer>

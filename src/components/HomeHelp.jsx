@@ -1,9 +1,11 @@
+import decoration from '../assets/Decoration.svg';
+
 const HomeHelp = () => {
   return (
     <section id="who-we-help" className="help">
       <h2>Komu pomagamy?</h2>
       <img
-        src={require("../assets/Decoration.svg").default}
+        src={decoration}
         alt="a decoration "
       />
       <button>Fundacjom</button>
