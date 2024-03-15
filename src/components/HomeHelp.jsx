@@ -16,7 +16,9 @@ const HomeHelp = () => {
         współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego
         potrzebują.
       </p>
-      <table></table>
+      <div></div>
+      <div></div>
+      <div></div>
       <div class="pagination">
         <a className="pagination-link" href="/">
           1

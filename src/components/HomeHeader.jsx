@@ -3,7 +3,7 @@ import HomeWelcome from "./HomeWelcome";
 
 const HomeHeader = () => {
   return (
-          <section id="start">
+          <section id="start" className="start">
             <HomeMenu/>
             <HomeWelcome/>
           </section>

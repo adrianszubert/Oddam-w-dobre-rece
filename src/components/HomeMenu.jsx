@@ -3,10 +3,10 @@ import Navbar from "./Navbar";
 
 const HomeMenu = () => {
   return (
-          <>
-            <Auth/>
-            <Navbar/>
-          </>
+      <section className="menu">
+        <Auth/>
+        <Navbar/>
+      </section>
   )
 }
 

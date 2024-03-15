@@ -6,13 +6,14 @@ import HomeWhatIsItAbout from "./HomeWhatIsItAbout";
 
 const Home = () => {
     return (
-        <>
-            <HomeHeader/>
-            <HomeWhatIsItAbout/>
-            <HomeAboutUs/>
-            <HomeHelp/>
-            <HomeContactUs/>
-        </>
+            <div className="container">
+                <HomeHeader/>
+                <HomeWhatIsItAbout/>
+                <HomeAboutUs/>
+                <HomeHelp/>
+                <HomeContactUs/>
+            </div>
+        
     );
 }
 export default Home;

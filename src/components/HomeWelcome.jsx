@@ -1,20 +1,23 @@
 import { Link } from "react-router-dom";
-import heroImage from '../assets/Home-Hero-Image.jpg';
-import decoration from '../assets/Decoration.svg'
+// import heroImage from "../assets/Home-Hero-Image.jpg";
+import decoration from "../assets/Decoration.svg";
 
 const HomeWelcome = () => {
   return (
     <section className="welcome">
-      <img className="welcome__image"
-        src={heroImage}
-        alt="different everyday items in a cardboard box"
-      />
       <div className="welcome__heading-wrapper">
-        <h2 className="welcome__heading">Zacznij pomagać! Oddaj niechciane rzeczy w zaufane ręce</h2>
-        <img src={decoration} alt="a decoration "/>
+        <h2 className="welcome__heading">
+          Zacznij pomagać!
+          <br /> Oddaj niechciane rzeczy w zaufane ręce
+        </h2>
+        <img className="welcome__decoration" src={decoration} alt="a decoration " />
         <div className="welcome__links">
-          <Link className="welcome__link" to="/logowanie">ODDAJ RZECZY</Link>
-          <Link className="welcome__link" to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link>
+          <Link className="welcome__link" to="/logowanie">
+            ODDAJ <br /> RZECZY
+          </Link>
+          <Link className="welcome__link" to="/logowanie">
+            ZORGANIZUJ <br /> ZBIÓRKĘ
+          </Link>
         </div>
       </div>
     </section>
