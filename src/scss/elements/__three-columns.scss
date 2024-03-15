@@ -1,0 +1,12 @@
+.three-columns__container {
+  background-image: url(../../assets/three-columns-background.png);
+  width: 100%;
+  display: flex;
+}
+
+.three-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
