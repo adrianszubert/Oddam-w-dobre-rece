@@ -3,10 +3,14 @@ import HomeThreeColumns from "./HomeThreeColumns"
 
 const HomeWhatIsItAbout = () => {
   return (
-    <section id="what-is-it">
+    <>
+      <section id="three-columns">
         <HomeThreeColumns/>
+      </section>
+      <section id="four-steps">
         <HomeFourSteps/>
-    </section>
+      </section>
+    </>
   )
 }
 

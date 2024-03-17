@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-// import heroImage from "../assets/Home-Hero-Image.jpg";
 import decoration from "../assets/Decoration.svg";
+import Decoration from "./Decoration";
 
 const HomeWelcome = () => {
   return (
@@ -10,7 +10,7 @@ const HomeWelcome = () => {
           Zacznij pomagać!
           <br /> Oddaj niechciane rzeczy w zaufane ręce
         </h2>
-        <img className="welcome__decoration" src={decoration} alt="a decoration " />
+        <Decoration/>
         <div className="welcome__links">
           <Link className="welcome__link" to="/logowanie">
             ODDAJ <br /> RZECZY
