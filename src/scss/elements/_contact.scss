@@ -50,6 +50,7 @@
 .form-label {
   font-size: 12px;
   font-weight: 700;
+  padding-bottom: 12px;
 }
 
 .inputs-top-wrapper {
@@ -72,11 +73,12 @@ input {
 
 textarea {
   width: 99%;
-  height: 80px;
+  height: 78px;
   resize: none;
   border: none;
   border-bottom: 2px solid $text-color;
   opacity: 0.4;
+  padding-top: 12px;
 }
 
 .form-button {
