@@ -1,28 +1,35 @@
 .contact {
   width: 100%;
   height: 100vh;
-  background-image: url(../../assets/Background-Contact-Form.jpg);
+  margin-top: 100px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../../assets/Background-Contact-Form.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 2% 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .contact-heading-form-wrapper {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 90px;
+  margin-right: 130px;
 }
 
 .contact-heading-deco-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-heading {
@@ -36,30 +43,75 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 500px;
+  width: 415px;
+  margin-top: 40px;
 }
 
 .form-label {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.inputs-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid $text-color;
+  opacity: 0.4;
 }
 
 .input-wrapper {
   display: flex;
   flex-direction: column;
+  width: 202px;
 }
 
 textarea {
-    width: 440px;
-    resize: none;
+  width: 99%;
+  height: 80px;
+  resize: none;
+  border: none;
+  border-bottom: 2px solid $text-color;
+  opacity: 0.4;
+}
+
+.form-button {
+  width: fit-content;
+  padding: 10px 35px;
+  float: right;
+  margin-top: 22px;
+  border-radius: 0;
+  background-color: white;
+  border-width: 1px;
 }
 
 .contact-footer {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contact-footer__copyright {
+  display: flex;
   justify-content: center;
-  align-items: flex-end;
+  width: 100%;
+  margin-left: 208px;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .contact-footer__social-icons {
-  justify-self: flex-end;
+  display: flex;
+  margin-right: 115px;
+}
+
+.contact-footer__social-icons img {
+  padding-right: 20px;
+  width: 25px;
 }
